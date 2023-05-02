@@ -8,10 +8,10 @@ const PageNavBar = () => {
       <Navbar.Brand className='brand' to={'/'} as={Link}>Home</Navbar.Brand>
       <Navbar.Toggle className='narrow-menu' />
       <Navbar.Collapse className='justify-content-end narrow-style'>
-        <Nav>
-          <Link to='/'>About Me</Link>
-          <Link to='/projects'>View Projects</Link>
-          <Link to='/contact'>Contact Me</Link>
+        <Nav className='navbar-container'>
+          <Link className='navbar-link' to='/'>About Me</Link>
+          <Link className='navbar-link' to='/projects'>View Projects</Link>
+          <Link className='navbar-link' to='/contact'>Contact Me</Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
