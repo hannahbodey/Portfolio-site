@@ -48,7 +48,7 @@ const WorkExperience = () => {
       <div className='individual-experience'>
         <div className='single-experience'>
           <img className='job-logo' src='https://pbs.twimg.com/profile_images/615766555532525568/JyZnqXtW_400x400.jpg' alt='harris-bromley-logo' />
-          <h5 className='job-title'>Second-in-Charge of Modern Foreign Languages at Harris Girls Academy Bromley</h5>
+          <h5 className='job-title'>Second-in-Charge of MFL at Harris Girls Academy Bromley</h5>
         </div>
         <h6 className='job-info'>May 2022 - September 2022</h6>
         <p className='job-description'>Assisting the Head of Department in running the department, supporting continued professional development of colleagues in the department and playing an active role in designing department curriculum.</p>

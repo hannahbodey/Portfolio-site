@@ -12,16 +12,16 @@ const Projects = () => {
           <h2>General Assembly Software Engineering Immersive</h2>
         </div>
         <div className='project-container'>
-          <ProjectOne />
-        </div>
-        <div className='project-container'>
-          <ProjectTwo />
+          <ProjectFour />
         </div>
         <div className='project-container'>
           <ProjectThree />
         </div>
         <div className='project-container'>
-          <ProjectFour />
+          <ProjectTwo />
+        </div>
+        <div className='project-container'>
+          <ProjectOne />
         </div>
       </div>
     </div>
