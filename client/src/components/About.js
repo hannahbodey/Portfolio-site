@@ -10,15 +10,20 @@ const About = () => {
   return (
     <div className='site-wrapper'>
       <div className='title-container'>
-        <h1>Hannah Bodey</h1>
-        <h2>Junior Software Engineer</h2>
+        <img className='headshot' src={require('../images/8715F432-8209-4AB3-9036-7C1AA16CC7F7_1_105_c.jpeg')} alt='headshot' />
+        <div className='title-pic-container'>
+          <h1>Hannah Bodey</h1>
+          <h2>Junior Software Engineer</h2>
+        </div>
       </div>
       <div className='bio-container'>
         <PersonalIntro />
       </div>
+      <h4 className='coding-languages-title'>Coding Languages</h4>
       <div className='skills-container'>
         <CodingLanguages />
       </div>
+      <h4 className='coding-languages-title'>Human Languages</h4>
       <div className='skills-container'>
         <Languages />
       </div>
@@ -35,7 +40,7 @@ const About = () => {
         <Interests />
       </div>
     </div>
-  
+
   )
 }
 

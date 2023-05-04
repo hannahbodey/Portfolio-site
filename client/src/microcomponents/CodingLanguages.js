@@ -1,6 +1,7 @@
 const CodingLanguages = () => {
   return (
     <>
+
       <div className='individual-skill'>
         <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png' alt='HTML logo' className='language-icon' />
         <p className='languages-label'>HTML5</p>

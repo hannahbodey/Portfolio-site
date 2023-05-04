@@ -11,7 +11,7 @@ const PageNavBar = () => {
         <Nav className='navbar-container'>
           <Link className='navbar-link' to='/'>About Me</Link>
           <Link className='navbar-link' to='/projects'>View Projects</Link>
-          <Link className='navbar-link' to='/contact'>Contact Me</Link>
+          <Link className='navbar-link' to='https://www.linkedin.com/in/hannah-bodey/' target='_blank' rel='noreferrer'>Contact Me</Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

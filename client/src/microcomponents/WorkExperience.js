@@ -7,12 +7,12 @@ const WorkExperience = () => {
       <div className='individual-experience'>
         <div className='single-experience'>
           <img className='job-logo' src='https://dypsloom.com/static/65bcbe4720879f722b2c015792797884/ccee7/dypsloom-logo-color-stroke.png' alt='dypsloom-logo' />
-          <h5 className='job-title'>Project Assistant, Software Side for Dypsloom</h5>
+          <h5 className='job-title'>Assistant Software Enginner at Dypsloom</h5>
         </div>
-        <h6 className='job-info'>May 2023 -</h6>
+        <h6 className='job-info'>April 2023 - Present</h6>
         <p className='job-description'>Assisting with Search Engine Optimisation prior to Dypsloom launching their latest game! Also ensuring that the website is mobile-responsive.</p>
       </div>
-      <div className='individual-experience'>
+      {/* <div className='individual-experience'>
         <div className='single-experience'>
           <img className='job-logo' src='https://seeklogo.com/images/G/general-assembly-logo-D5C634F07A-seeklogo.com.png' alt='GA-logo' />
           <h5 className='job-title'>Student, Software Engineering Immersive with General Assembly</h5>
@@ -20,13 +20,13 @@ const WorkExperience = () => {
         <h6 className='job-info'>January 2023 - April 2023</h6>
         <p className='job-description'>Full-time virtual course in software engineering, full-stack. All technologies above covered, alongside daily stand-ups, agile and collaborative working.</p>
         <Link className='project-link' to='/projects'>Click here to see projects in more detail.</Link>
-      </div>
+      </div> */}
       <div className='individual-experience'>
         <div className='single-experience'>
           <img className='job-logo' src='https://companieslogo.com/img/orig/PSO-90111d90.png?t=1598226939' alt='pearson-logo' />
           <h5 className='job-title'>Associate Examiner for Pearson</h5>
         </div>
-        <h6 className='job-info'>May 2023 -</h6>
+        <h6 className='job-info'>May 2023 - Present</h6>
         <p className='job-description'>Analyse papers according to mark scheme, efficiently manage time to keep to schedule.</p>
       </div>
       <div className='individual-experience'>
@@ -34,7 +34,7 @@ const WorkExperience = () => {
           <img className='job-logo' src='https://goldencircletutors.co.uk/wp-content/themes/the-golden-circle/assets/images/the-golden-circle-logo.png' alt='golden-circle-logo' />
           <h5 className='job-title'>Specialist French Tutor for the Golden Circle</h5>
         </div>
-        <h6 className='job-info'>June 2022 -</h6>
+        <h6 className='job-info'>June 2022 - Present</h6>
         <p className='job-description'>Assess student understanding, plan appropriately challenging lessons, deliver lessons in an engaging way.</p>
       </div>
       <div className='individual-experience'>

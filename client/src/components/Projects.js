@@ -7,25 +7,26 @@ const Projects = () => {
   return (
     <div className='site-wrapper'>
       <div className='projects-container'>
-        <div className='title-container'>
+        <div className='projects-title-container'>
           <h1>Previous Projects</h1>
           <h2>General Assembly Software Engineering Immersive</h2>
         </div>
-        <div className='project-container'>
-          <ProjectFour />
-        </div>
-        <div className='project-container'>
-          <ProjectThree />
-        </div>
-        <div className='project-container'>
-          <ProjectTwo />
-        </div>
-        <div className='project-container'>
-          <ProjectOne />
+        <div className='all-projects-container'>
+          <div className='project-container'>
+            <ProjectFour />
+          </div>
+          <div className='project-container'>
+            <ProjectThree />
+          </div>
+          <div className='project-container'>
+            <ProjectTwo />
+          </div>
+          <div className='project-container'>
+            <ProjectOne />
+          </div>
         </div>
       </div>
     </div>
-
   )
 }
 
