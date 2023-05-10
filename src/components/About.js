@@ -19,10 +19,10 @@ const About = () => {
       <div className='bio-container'>
         <PersonalIntro />
       </div>
-      <h4 className='coding-languages-title'>Coding Languages</h4>
+      {/* <h4 className='coding-languages-title'>Coding Languages</h4>
       <div className='skills-container'>
         <CodingLanguages />
-      </div>
+      </div> */}
       <h4 className='coding-languages-title'>Human Languages</h4>
       <div className='skills-container'>
         <Languages />
