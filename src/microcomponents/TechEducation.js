@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 const TechEducation = () => {
   return (
     <>
-      <h3 className='experience-title'>Tech Training</h3>
-      <div className='individual-experience'>
+      <h3 className='tech-experience-title'>Tech Training</h3>
+      <div className='individual-tech-experience'>
         <div className='single-experience'>
           <img className='job-logo' src='https://seeklogo.com/images/G/general-assembly-logo-D5C634F07A-seeklogo.com.png' alt='ga-logo' />
           <h5 className='job-title'>General Assembly</h5>

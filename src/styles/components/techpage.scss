@@ -1,0 +1,31 @@
+.tech-background {
+  background-color: #181818;
+  // background-color: #fff;
+  border: 0.25rem solid #31b08c;
+  border-radius: 0.25rem;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+}
+
+.individual-tech-experience {
+  border-top: 0.15rem dashed #31b08c;
+  padding-top: 0.75rem;
+}
+
+
+.tech-background-styling {
+  border: 4rem solid #959794;
+  border-radius: 0.25rem;
+  outline: 1rem solid #3c3c3b;
+  margin: 2rem 0;
+  h4, h5, h6, p, a {
+    font-family: 'Source Code Pro', monospace;
+    &:not(a) {
+      color: #31b08c;
+    }
+  }
+}
+
+.tech-experience-title {
+  color: #31b08c;
+}
