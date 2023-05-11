@@ -111,3 +111,30 @@
     }
   }
 }
+
+.tech-teaching-links-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3rem 0;
+  .tech-teaching-link {
+    font-size: large;
+    background-color: #fff;
+    border: 0.25rem solid #54000d;
+    border-radius: 0.25rem;
+    &:hover {
+      background-color: #54000d;
+      color: #fff;
+    }
+  }
+}
+
+.teaching-background {
+  background-color: #000;
+  color: #fff;
+  border: 0.75rem solid #462009;
+  border-radius: 0.15rem;
+  .individual-experience {
+    border-top: 0.15rem dashed #fff;
+  }
+  
+}

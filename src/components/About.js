@@ -4,9 +4,21 @@ import Education from '../microcomponents/Education'
 import Interests from '../microcomponents/Interests'
 import Languages from '../microcomponents/Languages'
 import PersonalIntro from '../microcomponents/PersonalIntro'
-import WorkExperience from '../microcomponents/WorkExperience'
+import WorkExperience from '../microcomponents/TeachingExperience'
+import { useNavigate } from 'react-router-dom'
 
 const About = () => {
+
+  const navigate = useNavigate()
+
+  const handleClickTech = () => {
+    navigate('/tech')
+  }
+
+  const handleClickTeach = () => {
+    navigate('/teaching')
+  }
+
   return (
     <div className='site-wrapper'>
       <div className='title-container'>
@@ -23,16 +35,20 @@ const About = () => {
       <div className='skills-container'>
         <CodingLanguages />
       </div> */}
-      <h4 className='coding-languages-title'>Human Languages</h4>
+      <h4 className='coding-languages-title'>Languages</h4>
       <div className='skills-container'>
         <Languages />
       </div>
-      <div className='work-education-experience'>
+      <div className='tech-teaching-links-container'>
+        <button className='tech-teaching-link' onClick={handleClickTech}>Click to view my tech experience!</button>
+        <button className='tech-teaching-link' onClick={handleClickTeach}>Click to view my teaching experience!</button>
+      </div>
+      {/* <div className='work-education-experience'>
         <WorkExperience />
       </div>
       <div className='work-education-experience'>
         <Education />
-      </div>
+      </div> */}
       <div className='additional-skills-container'>
         <AdditionalCertificates />
       </div>
