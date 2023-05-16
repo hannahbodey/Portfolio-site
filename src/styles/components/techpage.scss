@@ -12,12 +12,19 @@
   padding-top: 0.75rem;
 }
 
-
 .tech-background-styling {
-  border: 4rem solid #959794;
-  border-radius: 0.25rem;
-  outline: 1rem solid #3c3c3b;
-  margin: 2rem 0;
+  @media (min-width: 769px) {
+    border: 4rem solid #959794;
+    border-radius: 0.25rem;
+    outline: 1rem solid #3c3c3b;
+    margin: 2rem 0;
+  }
+  @media (max-width: 768px){
+    border: 1.5rem solid #959794;
+    border-radius: 0.15rem;
+    outline: 0.5rem solid #3c3c3b;
+    margin: 1rem 0;
+  }
   h4, h5, h6, p, a {
     font-family: 'Source Code Pro', monospace;
     &:not(a) {
@@ -28,4 +35,19 @@
 
 .tech-experience-title {
   color: #31b08c;
+}
+
+.screen-button-container {
+  background-color:#959794;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 0.5rem;
+  .computer-screen-button {
+    height: 2rem;
+    margin: 0.5rem;
+    width: 3rem;
+    border: 0.35rem solid #3c3c3b;
+    border-radius: 1rem;
+    background-color: #959794;
+  }
 }

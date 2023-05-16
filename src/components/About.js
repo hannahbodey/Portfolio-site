@@ -19,6 +19,14 @@ const About = () => {
     navigate('/teaching')
   }
 
+  const handleClickProjects = () => {
+    navigate('/projects')
+  }
+
+  const handleClickEducation = () => {
+    navigate('/education')
+  }
+
   return (
     <div className='site-wrapper'>
       <div className='title-container'>
@@ -26,6 +34,16 @@ const About = () => {
         <div className='title-pic-container'>
           <h1>Hannah Bodey</h1>
           <h2>Junior Software Engineer</h2>
+        </div>
+        <div className='logo-images-container'>
+          <a href='https://github.com/hannahbodey' target='_blank' rel='noreferrer'>
+            <div className='github-image'>
+              <img className='title-image' src='https://cdn-icons-png.flaticon.com/512/25/25231.png' />
+            </div>
+          </a>
+          <a href='https://www.linkedin.com/in/hannah-bodey/' target='_blank' rel='noreferrer'>
+            <img className='title-image' src='https://cdn-icons-png.flaticon.com/512/61/61109.png' />
+          </a>
         </div>
       </div>
       <div className='bio-container'>
@@ -35,14 +53,17 @@ const About = () => {
       <div className='skills-container'>
         <CodingLanguages />
       </div> */}
+      <div className='tech-teaching-links-container'>
+        <button className='tech-teaching-link' onClick={handleClickProjects}>View Coding Projects</button>
+        <button className='tech-teaching-link' onClick={handleClickEducation}>View Educational Background</button>
+        <button className='tech-teaching-link' onClick={handleClickTech}>View Tech Experience</button>
+        <button className='tech-teaching-link' onClick={handleClickTeach}>View Teaching Experience</button>
+      </div>
       <h4 className='coding-languages-title'>Languages</h4>
       <div className='skills-container'>
         <Languages />
       </div>
-      <div className='tech-teaching-links-container'>
-        <button className='tech-teaching-link' onClick={handleClickTech}>Click to view my tech experience!</button>
-        <button className='tech-teaching-link' onClick={handleClickTeach}>Click to view my teaching experience!</button>
-      </div>
+
       {/* <div className='work-education-experience'>
         <WorkExperience />
       </div>

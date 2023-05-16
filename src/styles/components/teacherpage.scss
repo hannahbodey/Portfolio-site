@@ -1,16 +1,29 @@
-
 .tech-teaching-links-container {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 3rem 0;
   .tech-teaching-link {
-    font-size: large;
     background-color: #fff;
     border: 0.25rem solid #54000d;
     border-radius: 0.25rem;
     &:hover {
       background-color: #54000d;
       color: #fff;
+    }
+  }
+  @media(min-width: 769px) {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3rem 0;
+    .tech-teaching-link {
+      font-size: large;  
+      width: 17rem;
+      height: 3.5rem;
+    }
+  }
+  @media(max-width: 768px) {
+    margin: 0.5rem 0;
+    .tech-teaching-link {
+      width: 10rem;
+      margin: 0.25rem;
+      height: 3.5rem;
     }
   }
 }
@@ -26,6 +39,9 @@
   border-radius: 0.15rem;
   .individual-experience {
     border-top: 0.15rem dashed antiquewhite;
+    &:last-of-type {
+      border-bottom: 0.35rem solid #462009;
+    }
   }
   
 }

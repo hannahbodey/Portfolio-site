@@ -7,7 +7,9 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  margin-bottom: 1rem;
   .individual-skill, .individual-language-skill {
+    width: 12rem;
     background-color: #fff;
     margin: 0.15rem;
     border: 0.15rem solid #54000d;
@@ -42,7 +44,6 @@
     }
   }
 
-
 .single-experience {
   display: flex;
   flex-wrap: wrap;
@@ -53,6 +54,7 @@
   .job-logo {
     max-width: 3rem;
     margin-left: 0.25rem;
+    margin-right: 0.5rem;
   }
 }
 
@@ -97,7 +99,7 @@
     height: 4rem;
   }
   @media (min-width: 769px){
-    margin: 0 3rem;
+    // margin: 0 3rem;
   }
 }
 
@@ -110,5 +112,19 @@
       }
     }
   }
+  @media (min-width: 769px){
+    justify-content: space-evenly;
+  }
 }
 
+.logo-images-container {
+  display: flex;
+  flex-direction: column;
+    .title-image {
+      height: 3.5rem;
+      margin-bottom: 0.5rem;
+      @media (max-width: 768px){
+        display: none;
+      }
+    }
+}

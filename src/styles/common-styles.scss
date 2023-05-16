@@ -13,3 +13,16 @@
   margin: 0 4%;
 }
 
+.back-button {
+  font-size: large;
+  background-color: #fff;
+  border: 0.25rem solid #54000d;
+  border-radius: 0.25rem;
+  width: 8rem;
+  height: 2.5rem;
+  margin-top: 0.75rem;
+  &:hover {
+    background-color: #54000d;
+    color: #fff;
+  }
+}
