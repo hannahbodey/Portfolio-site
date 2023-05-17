@@ -6,7 +6,7 @@ const WorkExperience = () => {
       <h3 className='experience-title'>Teaching Experience</h3>
       <div className='individual-experience'>
         <div className='single-experience'>
-          <img className='job-logo' src='https://www.teamsatchel.com/assets/images/sticky-logo.png' alt='team-satchel-logo' />
+          <img className='job-logo' src='https://www.teamsatchel.com/assets/images/main-logo.png' alt='team-satchel-logo' />
           <h5 className='job-title'>SEL Coach at Team Satchel</h5>
         </div>
         <h6 className='job-info'>May 2023 - Present</h6>

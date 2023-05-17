@@ -74,7 +74,21 @@
 // &:not(:last-of-type) {
   border-top: 0.15rem dashed #54000d;
 // }
-  padding-top: 0.75rem;
+  @media (max-width: 768px){
+    padding-top: 0.75rem;
+    .single-experience {
+      h5 {
+        padding-top: 0.5rem;
+      }
+    }
+  }
+  @media (min-width: 769px){
+    padding-top: 2rem;
+    padding: 2rem;
+  }
+  .job-info {
+    margin-top: 0.75rem;
+  }
 }
 
 .bio-container, .personal-interests-container {

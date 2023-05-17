@@ -43,5 +43,10 @@
       border-bottom: 0.35rem solid #462009;
     }
   }
-  
+  @media (max-width: 768px){
+    padding: 0.5rem;
+  }
+  @media (min-width: 769px){
+    padding: 2.5rem;
+  }
 }

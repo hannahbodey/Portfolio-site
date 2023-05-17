@@ -4,12 +4,20 @@
   border: 0.25rem solid #31b08c;
   border-radius: 0.25rem;
   margin-top: 0.5rem;
-  padding: 0.5rem;
+  @media(max-width: 768px){
+    padding: 0.5rem;
+  }
+  @media (min-width: 769px){
+    padding: 2.5rem;
+  }
 }
 
 .individual-tech-experience {
   border-top: 0.15rem dashed #31b08c;
   padding-top: 0.75rem;
+  h6 {
+    margin-top: 0.5rem;
+  }
 }
 
 .tech-background-styling {
