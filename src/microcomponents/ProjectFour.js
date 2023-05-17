@@ -7,8 +7,11 @@ const ProjectFour = () => {
           <img className='project-logo' src={require('../images/theatreaddictgif.gif')} alt='theatre-addict-screenshot' />
           <h6 className='project-info'>April 2023, 8 day solo project</h6>
           {/* <a href='https://theatre-addict.herokuapp.com/'>Click here to find your next show!</a> */}
-          <p className='project-description'>Search tool for musical theatre in London - user able to swipe through shows and follow links to buy tickets, add comments / tips for individual shows. Authentication and monitoring the logged in user to change what’s shown and ability to send messages to other users.</p>
+          <p className='project-description'>For my final project on my General Assembly course, which was completed independently in 8 days, I wanted to channel my enthusiasm for musical theatre. I created an app that was designed for mobile but worked on desktop, and allowed the user to swipe through all the musicals showing in the West End in London. Users could click through and were taken to the booking pages for each theatre. I also added functionality for the user to create an account so they could leave comments for other users, and then message other users to get more information about a particular show or theatre.</p>
         </div>
+      </a>
+      <a href='https://github.com/hannahbodey/GA-Project-4-Theatre-Addict'target='_blank' rel='noreferrer'>
+        <button className='back-button repo-button'>Click through to my Git repo →</button>
       </a>
     </>
   )
