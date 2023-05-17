@@ -99,6 +99,12 @@
   border-radius: 0.15rem;
 }
 
+.bio-container, .personal-interests-container {
+  @media (min-width: 769px){
+    padding: 2rem;
+  }
+}
+
 .coding-languages-title {
   margin-top: 0.5rem;
   background-color: #fff;
